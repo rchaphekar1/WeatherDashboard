@@ -4,7 +4,7 @@ body {
 
 .jumbotron {
     background-color: #dbe9f4;
-    ;
+    height: fit-content;
 }
 
 #weather-header {
@@ -22,4 +22,12 @@ column {
 
 .main-column-two {
     width: 70%;
+}
+
+.forecast-card {
+    margin: 8px;
+}
+
+#five-day-forecast {
+    height: 300px;
 }

@@ -24,30 +24,82 @@
                         </div>
                         <button id="searchButton">Search</button>
                     </form>
-                    <div class="search-history">
-        
-                    </div>
+                    <br>
+                    <div class="search-history"></div>
                 </div>
             </div>
         </column>
         <column class="main-column-two">
-            <row>
-                <div class="container">
-                    <div class="jumbotron">
+            <div class="container">
+                <div class="jumbotron">
+                    <row>
                         <h4 class="display-5" id="cityEl">City</h4>
                         <hr class="my-4">
                         <div class="search results">
-                        <p id="temperatureEl"></p>
-                        <p id="humidityEl"></p>
-                        <p id="windSpeedEl"></p>
-                        <p id="uviIndexEl"></p>
+                            <p id="temperatureEl"></p>
+                            <p id="humidityEl"></p>
+                            <p id="windSpeedEl"></p>
+                            <p id="uviIndexEl"></p>
                         </div>
-                    </div>
+                    </row>
                 </div>
-            </row>
-            <row>
-
-            </row>
+                <div class="jumbotron" id="five-day-forecast">
+                    <row>
+                        <h4 class="display-5" id="forecast">5-Day Forecast</h4>
+                        <br>
+                        <column>
+                            <div class="card bg-light mb-3 forecast-card" style="max-width: 11rem;">
+                                <div class="card-header" id="forecast-dateEl-one"></div>
+                                <div class="card-body">
+                                  <h5 class="card-title"></h5>
+                                  <p class="card-text" id="forecast-tempEl-one"></p>
+                                  <p class="card-text" id="forecast-humidityEl-one"></p>
+                                </div>
+                            </div>
+                        </column>
+                        <column>
+                            <div class="card bg-light mb-3 forecast-card" style="max-width: 11rem;">
+                                <div class="card-header" id="forecast-dateEl-two"></div>
+                                <div class="card-body">
+                                  <h5 class="card-title"></h5>
+                                  <p class="card-text" id="forecast-tempEl-two"></p>
+                                  <p class="card-text" id="forecast-humidityEl-two"></p>
+                                </div>
+                            </div>
+                        </column>
+                        <column>
+                            <div class="card bg-light mb-3 forecast-card" style="max-width: 11rem;">
+                                <div class="card-header" id="forecast-dateEl-three"></div>
+                                <div class="card-body">
+                                  <h5 class="card-title"></h5>
+                                  <p class="card-text" id="forecast-tempEl-three"></p>
+                                  <p class="card-text" id="forecast-humidityEl-three"></p>
+                                </div>
+                            </div>
+                        </column>
+                        <column>
+                            <div class="card bg-light mb-3 forecast-card" style="max-width: 11rem;">
+                                <div class="card-header" id="forecast-dateEl-four"></div>
+                                <div class="card-body">
+                                  <h5 class="card-title"></h5>
+                                  <p class="card-text" id="forecast-tempEl-four"></p>
+                                  <p class="card-text" id="forecast-humidityEl-four"></p>
+                                </div>
+                            </div>
+                        </column>
+                        <column>    
+                            <div class="card bg-light mb-3 forecast-card" style="max-width: 11rem;">
+                                <div class="card-header" id="forecast-dateEl-five"></div>
+                                <div class="card-body">
+                                  <h5 class="card-title"></h5>
+                                  <p class="card-text" id="forecast-tempEl-five"></p>
+                                  <p class="card-text" id="forecast-humidityEl-five"></p>
+                                </div>
+                            </div>
+                        </column>
+                    </row>
+                </div>
+            </div>
         </column>
     </row>
    
